@@ -1,8 +1,11 @@
 {
-                "columns": [
-                  {"AttnName": "Mihaela Jennings"},
-                  {"MaterialType": "Benefit Guide"},
-                  {"ShippingAddress": "123 Street, Houston TX 777009"},
-                  {"ShippingPhone": "713-816-9309"}
-                  ]
-                }
+  "columns": [
+    { "id": 1, "title": "AttnName" },
+    { "id": 2, "title": "MaterialType" },
+    { "id": 3, "title": "ShippingAddress" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Mihaela Jennings", "columnsID": 1 },
+    { "id": 2, "body": "Benefit Guide", "columnsID": 1 }
+  ]
+}
